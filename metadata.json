@@ -1,0 +1,6 @@
+{
+  "name": "DSK Law Chambers",
+  "description": "Full-service law firm specialising in real estate, property due diligence, litigation, DRT, and High Court practice.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
