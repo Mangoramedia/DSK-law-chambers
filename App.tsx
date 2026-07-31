@@ -11,6 +11,7 @@ import { ValuesSection } from './components/ValuesSection';
 import { ContactSection } from './components/ContactSection';
 import { Footer } from './components/Footer';
 import { ConsultationModal } from './components/ConsultationModal';
+import { DisclaimerModal } from './components/DisclaimerModal';
 import { ScrollProgressBar } from './components/ScrollProgressBar';
 import { WhatsAppWidget } from './components/WhatsAppWidget';
 
@@ -116,6 +117,9 @@ export default function App() {
         prefilledPracticeArea={prefilledPracticeArea}
         prefilledAdvocate={prefilledAdvocate}
       />
+
+      {/* Mandatory Bar Council Disclaimer Modal */}
+      <DisclaimerModal />
 
       {/* Floating Interactive WhatsApp Legal Consultation Widget */}
       <WhatsAppWidget phoneNumber="917019302979" />
